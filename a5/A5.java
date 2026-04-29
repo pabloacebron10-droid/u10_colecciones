@@ -8,10 +8,11 @@ public class A5 {
     
     final int LONGITUD_DE_LA_LISTA= 100;
     final int NUMERO_SEGUNDA_COLECCION= 5;
+    final int RANGO_NUMEROS_ALEATORIOS= 10;
     Collection<Integer> numeros = new ArrayList<>();
 
     for(int i=0; i<LONGITUD_DE_LA_LISTA; i++){
-        Integer numero= (int) (Math.random()*10) +1;
+        Integer numero= (int) (Math.random()*RANGO_NUMEROS_ALEATORIOS) +1;
         numeros.add(numero);
     }
 
