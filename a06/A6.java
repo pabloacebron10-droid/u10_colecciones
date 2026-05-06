@@ -1,4 +1,4 @@
-package a6;
+package a06;
 
 import java.util.ArrayList;
 import java.util.Arrays;
