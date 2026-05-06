@@ -16,7 +16,7 @@
 
 ---
 
-## 🧠 Teoría de la solución
+## 🧠 Solución
 
 - Para inserciones rápidas se usa **`HashSet`**, que evita duplicados usando `equals()` (en este caso, el DNI).
 - Al insertar socios con el mismo DNI, **no se duplican**, ya que se consideran iguales.
