@@ -29,6 +29,3 @@ Las colecciones permiten almacenar y manipular grupos de objetos de forma dinám
 - 10.7 La clase `Collections`  
 
 
-// Forma moderna con genéricos
-Contenedor<String> c = new Contenedor<>();
-c.guardar("Hola");
