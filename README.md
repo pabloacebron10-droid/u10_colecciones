@@ -28,44 +28,7 @@ Las colecciones permiten almacenar y manipular grupos de objetos de forma dinám
 - 10.6 Mapas / Diccionarios (`Map`)  
 - 10.7 La clase `Collections`  
 
----
 
-## 🔍 10.1 Introducción
-
-### ❗ Problema de los Arrays
-
-- Tamaño fijo.
-- Difícil de redimensionar.
-- Ineficiente al añadir o eliminar elementos.
-
-### ✅ Solución: Colecciones
-
-- Estructuras dinámicas.
-- Crecen y decrecen automáticamente.
-- Pertenecen al paquete `java.util`.
-
----
-
-## 🧠 10.2 Tipos Genéricos
-
-### 📌 ¿Qué son?
-
-Permiten definir clases, interfaces o métodos que trabajan con distintos tipos de datos de forma segura.
-
-### ⚠️ Antes de Java 5
-
-- Uso de `Object`.
-- Necesidad de casting.
-- Posibles errores en ejecución (`ClassCastException`).
-
-### ✅ Con genéricos
-
-- Comprobación en tiempo de compilación.
-- Mayor seguridad (**type safety**).
-
-### ✨ Ejemplo
-
-```java
 // Forma moderna con genéricos
 Contenedor<String> c = new Contenedor<>();
 c.guardar("Hola");
