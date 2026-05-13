@@ -27,5 +27,3 @@ Las colecciones permiten almacenar y manipular grupos de objetos de forma dinám
 - 10.5 Conjuntos (`Set`)  
 - 10.6 Mapas / Diccionarios (`Map`)  
 - 10.7 La clase `Collections`  
-
-
